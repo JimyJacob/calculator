@@ -1,0 +1,30 @@
+.calculatorWrapper {
+  margin: 10% auto;
+  width: 500px;
+  height: auto;
+  border: 3px solid mediumseagreen;
+  padding: 15px 
+}
+
+.inputTextBoxesWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 15px 0
+}
+
+.inputTextBoxesWrapper > .textbox {
+    min-width: 50px;
+    max-width: 90px;
+    flex-basis: content;
+    margin:0 1px
+}
+
+.buttonsWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonsWrapper button {
+  width: 150px;
+}
